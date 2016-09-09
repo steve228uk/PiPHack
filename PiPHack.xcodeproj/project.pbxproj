@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28426EB61D836A7100C9F78D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28426EB51D836A7100C9F78D /* AppDelegate.swift */; };
+		28426EB81D836A7100C9F78D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28426EB71D836A7100C9F78D /* ViewController.swift */; };
+		28426EBA1D836A7100C9F78D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28426EB91D836A7100C9F78D /* Assets.xcassets */; };
+		28426EBD1D836A7100C9F78D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28426EBB1D836A7100C9F78D /* Main.storyboard */; };
+		28426EC81D836A7200C9F78D /* PiPHackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28426EC71D836A7200C9F78D /* PiPHackTests.swift */; };
+		28426ED31D836A7200C9F78D /* PiPHackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28426ED21D836A7200C9F78D /* PiPHackUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28426EC41D836A7200C9F78D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28426EAA1D836A7100C9F78D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28426EB11D836A7100C9F78D;
+			remoteInfo = PiPHack;
+		};
+		28426ECF1D836A7200C9F78D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28426EAA1D836A7100C9F78D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28426EB11D836A7100C9F78D;
+			remoteInfo = PiPHack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28426EB21D836A7100C9F78D /* PiPHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiPHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28426EB51D836A7100C9F78D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28426EB71D836A7100C9F78D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28426EB91D836A7100C9F78D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28426EBC1D836A7100C9F78D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28426EBE1D836A7100C9F78D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28426EC31D836A7200C9F78D /* PiPHackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiPHackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28426EC71D836A7200C9F78D /* PiPHackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiPHackTests.swift; sourceTree = "<group>"; };
+		28426EC91D836A7200C9F78D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28426ECE1D836A7200C9F78D /* PiPHackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiPHackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28426ED21D836A7200C9F78D /* PiPHackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiPHackUITests.swift; sourceTree = "<group>"; };
+		28426ED41D836A7200C9F78D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28426EAF1D836A7100C9F78D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28426EC01D836A7200C9F78D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28426ECB1D836A7200C9F78D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28426EA91D836A7100C9F78D = {
+			isa = PBXGroup;
+			children = (
+				28426EB41D836A7100C9F78D /* PiPHack */,
+				28426EC61D836A7200C9F78D /* PiPHackTests */,
+				28426ED11D836A7200C9F78D /* PiPHackUITests */,
+				28426EB31D836A7100C9F78D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28426EB31D836A7100C9F78D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28426EB21D836A7100C9F78D /* PiPHack.app */,
+				28426EC31D836A7200C9F78D /* PiPHackTests.xctest */,
+				28426ECE1D836A7200C9F78D /* PiPHackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28426EB41D836A7100C9F78D /* PiPHack */ = {
+			isa = PBXGroup;
+			children = (
+				28426EB51D836A7100C9F78D /* AppDelegate.swift */,
+				28426EB71D836A7100C9F78D /* ViewController.swift */,
+				28426EB91D836A7100C9F78D /* Assets.xcassets */,
+				28426EBB1D836A7100C9F78D /* Main.storyboard */,
+				28426EBE1D836A7100C9F78D /* Info.plist */,
+			);
+			path = PiPHack;
+			sourceTree = "<group>";
+		};
+		28426EC61D836A7200C9F78D /* PiPHackTests */ = {
+			isa = PBXGroup;
+			children = (
+				28426EC71D836A7200C9F78D /* PiPHackTests.swift */,
+				28426EC91D836A7200C9F78D /* Info.plist */,
+			);
+			path = PiPHackTests;
+			sourceTree = "<group>";
+		};
+		28426ED11D836A7200C9F78D /* PiPHackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28426ED21D836A7200C9F78D /* PiPHackUITests.swift */,
+				28426ED41D836A7200C9F78D /* Info.plist */,
+			);
+			path = PiPHackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28426EB11D836A7100C9F78D /* PiPHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28426ED71D836A7200C9F78D /* Build configuration list for PBXNativeTarget "PiPHack" */;
+			buildPhases = (
+				28426EAE1D836A7100C9F78D /* Sources */,
+				28426EAF1D836A7100C9F78D /* Frameworks */,
+				28426EB01D836A7100C9F78D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PiPHack;
+			productName = PiPHack;
+			productReference = 28426EB21D836A7100C9F78D /* PiPHack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28426EC21D836A7200C9F78D /* PiPHackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28426EDA1D836A7200C9F78D /* Build configuration list for PBXNativeTarget "PiPHackTests" */;
+			buildPhases = (
+				28426EBF1D836A7200C9F78D /* Sources */,
+				28426EC01D836A7200C9F78D /* Frameworks */,
+				28426EC11D836A7200C9F78D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28426EC51D836A7200C9F78D /* PBXTargetDependency */,
+			);
+			name = PiPHackTests;
+			productName = PiPHackTests;
+			productReference = 28426EC31D836A7200C9F78D /* PiPHackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28426ECD1D836A7200C9F78D /* PiPHackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28426EDD1D836A7200C9F78D /* Build configuration list for PBXNativeTarget "PiPHackUITests" */;
+			buildPhases = (
+				28426ECA1D836A7200C9F78D /* Sources */,
+				28426ECB1D836A7200C9F78D /* Frameworks */,
+				28426ECC1D836A7200C9F78D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28426ED01D836A7200C9F78D /* PBXTargetDependency */,
+			);
+			name = PiPHackUITests;
+			productName = PiPHackUITests;
+			productReference = 28426ECE1D836A7200C9F78D /* PiPHackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28426EAA1D836A7100C9F78D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Cocoon Development Ltd";
+				TargetAttributes = {
+					28426EB11D836A7100C9F78D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					28426EC21D836A7200C9F78D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28426EB11D836A7100C9F78D;
+					};
+					28426ECD1D836A7200C9F78D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28426EB11D836A7100C9F78D;
+					};
+				};
+			};
+			buildConfigurationList = 28426EAD1D836A7100C9F78D /* Build configuration list for PBXProject "PiPHack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28426EA91D836A7100C9F78D;
+			productRefGroup = 28426EB31D836A7100C9F78D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28426EB11D836A7100C9F78D /* PiPHack */,
+				28426EC21D836A7200C9F78D /* PiPHackTests */,
+				28426ECD1D836A7200C9F78D /* PiPHackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28426EB01D836A7100C9F78D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28426EBA1D836A7100C9F78D /* Assets.xcassets in Resources */,
+				28426EBD1D836A7100C9F78D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28426EC11D836A7200C9F78D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28426ECC1D836A7200C9F78D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28426EAE1D836A7100C9F78D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28426EB81D836A7100C9F78D /* ViewController.swift in Sources */,
+				28426EB61D836A7100C9F78D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28426EBF1D836A7200C9F78D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28426EC81D836A7200C9F78D /* PiPHackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28426ECA1D836A7200C9F78D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28426ED31D836A7200C9F78D /* PiPHackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28426EC51D836A7200C9F78D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28426EB11D836A7100C9F78D /* PiPHack */;
+			targetProxy = 28426EC41D836A7200C9F78D /* PBXContainerItemProxy */;
+		};
+		28426ED01D836A7200C9F78D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28426EB11D836A7100C9F78D /* PiPHack */;
+			targetProxy = 28426ECF1D836A7200C9F78D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28426EBB1D836A7100C9F78D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28426EBC1D836A7100C9F78D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28426ED51D836A7200C9F78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28426ED61D836A7200C9F78D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		28426ED81D836A7200C9F78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PiPHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.wearecocoon.PiPHack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		28426ED91D836A7200C9F78D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PiPHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.wearecocoon.PiPHack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		28426EDB1D836A7200C9F78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PiPHackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.wearecocoon.PiPHackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiPHack.app/Contents/MacOS/PiPHack";
+			};
+			name = Debug;
+		};
+		28426EDC1D836A7200C9F78D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PiPHackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.wearecocoon.PiPHackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiPHack.app/Contents/MacOS/PiPHack";
+			};
+			name = Release;
+		};
+		28426EDE1D836A7200C9F78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PiPHackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.wearecocoon.PiPHackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PiPHack;
+			};
+			name = Debug;
+		};
+		28426EDF1D836A7200C9F78D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PiPHackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.wearecocoon.PiPHackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PiPHack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28426EAD1D836A7100C9F78D /* Build configuration list for PBXProject "PiPHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28426ED51D836A7200C9F78D /* Debug */,
+				28426ED61D836A7200C9F78D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28426ED71D836A7200C9F78D /* Build configuration list for PBXNativeTarget "PiPHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28426ED81D836A7200C9F78D /* Debug */,
+				28426ED91D836A7200C9F78D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28426EDA1D836A7200C9F78D /* Build configuration list for PBXNativeTarget "PiPHackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28426EDB1D836A7200C9F78D /* Debug */,
+				28426EDC1D836A7200C9F78D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28426EDD1D836A7200C9F78D /* Build configuration list for PBXNativeTarget "PiPHackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28426EDE1D836A7200C9F78D /* Debug */,
+				28426EDF1D836A7200C9F78D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28426EAA1D836A7100C9F78D /* Project object */;
+}
