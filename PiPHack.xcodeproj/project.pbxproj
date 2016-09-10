@@ -13,6 +13,8 @@
 		28426EBD1D836A7100C9F78D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28426EBB1D836A7100C9F78D /* Main.storyboard */; };
 		28426EC81D836A7200C9F78D /* PiPHackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28426EC71D836A7200C9F78D /* PiPHackTests.swift */; };
 		28426ED31D836A7200C9F78D /* PiPHackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28426ED21D836A7200C9F78D /* PiPHackUITests.swift */; };
+		28426EE11D836A8500C9F78D /* PIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28426EE01D836A8500C9F78D /* PIP.framework */; };
+		28426EE31D836A8F00C9F78D /* PIP in Resources */ = {isa = PBXBuildFile; fileRef = 28426EE21D836A8F00C9F78D /* PIP */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		28426ECE1D836A7200C9F78D /* PiPHackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiPHackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28426ED21D836A7200C9F78D /* PiPHackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiPHackUITests.swift; sourceTree = "<group>"; };
 		28426ED41D836A7200C9F78D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28426EE01D836A8500C9F78D /* PIP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PIP.framework; sourceTree = "<group>"; };
+		28426EE21D836A8F00C9F78D /* PIP */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PIP; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28426EE11D836A8500C9F78D /* PIP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,11 +100,13 @@
 		28426EB41D836A7100C9F78D /* PiPHack */ = {
 			isa = PBXGroup;
 			children = (
+				28426EE21D836A8F00C9F78D /* PIP */,
 				28426EB51D836A7100C9F78D /* AppDelegate.swift */,
 				28426EB71D836A7100C9F78D /* ViewController.swift */,
 				28426EB91D836A7100C9F78D /* Assets.xcassets */,
 				28426EBB1D836A7100C9F78D /* Main.storyboard */,
 				28426EBE1D836A7100C9F78D /* Info.plist */,
+				28426EE01D836A8500C9F78D /* PIP.framework */,
 			);
 			path = PiPHack;
 			sourceTree = "<group>";
@@ -229,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28426EE31D836A8F00C9F78D /* PIP in Resources */,
 				28426EBA1D836A7100C9F78D /* Assets.xcassets in Resources */,
 				28426EBD1D836A7100C9F78D /* Main.storyboard in Resources */,
 			);
@@ -398,10 +406,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PiPHack",
+				);
 				INFOPLIST_FILE = PiPHack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.wearecocoon.PiPHack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/PiPHack/PIP/PIPViewController.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -411,10 +424,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PiPHack",
+				);
 				INFOPLIST_FILE = PiPHack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.wearecocoon.PiPHack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/PiPHack/PIP/PIPViewController.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -496,6 +514,7 @@
 				28426ED91D836A7200C9F78D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28426EDA1D836A7200C9F78D /* Build configuration list for PBXNativeTarget "PiPHackTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +523,7 @@
 				28426EDC1D836A7200C9F78D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28426EDD1D836A7200C9F78D /* Build configuration list for PBXNativeTarget "PiPHackUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +532,7 @@
 				28426EDF1D836A7200C9F78D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
