@@ -46,7 +46,8 @@ class ViewController: NSViewController {
     }
     
     /// Displays the current view controller in picture in picture and sets the play button to be true.
-    /// We added a pipIsActive flag here because it seems to get called twice. If the view controller has already presented then we'll get a crash from PIPViewController.
+    /// We added a pipIsActive flag here because `viewDidAppear()` gets called twice: once when the nib is loaded, and again after the view is moved to the PIP window.
+    /// If the view controller has already presented then we'll get a crash from PIPViewController.
     /// We also keep an instance of the current view so when the PIPPanel closes we can return it back to its original state.
     func openPIP() {
         if !pipIsActive {
